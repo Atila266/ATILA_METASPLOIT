@@ -11,12 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_12_09_005658) do
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
-  create_table "api_keys", id: :serial, force: :cascade do |t|
-    t.text "token"
-    t.datetime "created_at", precision: nil, null: false
+  # These are extensions that must be enabled in order to support this databassion: nil, null: false
     t.datetime "updated_at", precision: nil, null: false
   end
 
